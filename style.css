@@ -8,13 +8,21 @@ body{
     background-image: url(imagens/fundo-madeira.jpg);
     background-size: cover;
 }
+div#container{
+    display: flex;
+    align-items: center; /* Alinha verticalmente ( tenho que ver mais sobre isso e o motivo )*/
+    justify-content: center; /* Alinha horizontalmente ( tenho que ver mais sobre isso e o motivo ) */
+    height: 100vh; 
+}
+div#avatar{
+    width: 400px;
+    height: 400px;
+}
 img{
-    
-    
+    position: absolute;
+    height: 500px;
+}
+iframe{
+    position: absolute;
+}
 
-}
-div{
-    
-    
-    
-}
