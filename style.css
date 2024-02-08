@@ -14,10 +14,6 @@ div#container{
     justify-content: center; /* Alinha horizontalmente ( tenho que ver mais sobre isso e o motivo ) */
     height: 100vh; 
 }
-div#avatar{
-    width: 400px;
-    height: 400px;
-}
 img{
     position: absolute;
     height: 500px;
