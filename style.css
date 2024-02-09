@@ -16,9 +16,21 @@ div#container{
 }
 img{
     position: absolute;
-    height: 500px;
+    height: 520px;
 }
 iframe{
     position: absolute;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    height: 401px;
+    width: 239px;
 }
-
+div#logofacebook{
+    display: block;
+    text-align: right;
+}
+div#logofacebook > img{
+    width: 50px;
+    height: 50px;
+   
+}
