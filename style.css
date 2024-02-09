@@ -8,29 +8,27 @@ body{
     background-image: url(imagens/fundo-madeira.jpg);
     background-size: cover;
 }
-div#container{
-    display: flex;
-    align-items: center; /* Alinha verticalmente ( tenho que ver mais sobre isso e o motivo )*/
-    justify-content: center; /* Alinha horizontalmente ( tenho que ver mais sobre isso e o motivo ) */
-    height: 100vh; 
+article{
+    text-align: center;
+    
 }
-img{
-    position: absolute;
-    height: 520px;
+div#container > img{
+    display: inline-block;
 }
-iframe{
-    position: absolute;
-    margin-right: 8px;
-    margin-bottom: 5px;
-    height: 401px;
-    width: 239px;
+div#logo{
+    display: inline-block;
+    
 }
-div#logofacebook{
-    display: block;
-    text-align: right;
-}
-div#logofacebook > img{
+div#logo > img{
     width: 50px;
     height: 50px;
-   
+    
 }
+
+/* 
+    div#container{
+    display: flex;
+    align-items: center; /* Alinha verticalmente ( tenho que ver mais sobre isso e o motivo )
+    justify-content: center; /* Alinha horizontalmente ( tenho que ver mais sobre isso e o motivo ) 
+    height: 100vh;  
+*/
