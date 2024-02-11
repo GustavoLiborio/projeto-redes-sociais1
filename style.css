@@ -13,13 +13,17 @@ article{
 }
 div.container{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
 }
 
 div.container > img{
-    height: 500px;
+    display: inline-block;
+    height: 400px;
 }
+
 div.container-logos{
     width: 50px;
     height: 300px;
@@ -36,6 +40,7 @@ div.logos > img{
     border-radius: 30px;
     
 }
+
 
 /* 
     div#container{
