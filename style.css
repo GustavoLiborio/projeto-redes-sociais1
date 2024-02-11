@@ -10,32 +10,31 @@ body{
 }
 article{
     text-align: center;
-    
 }
-div#container{
-    margin-right: 25px;
+div.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-div#container > img{
-    display: inline-block;
+
+div.container > img{
     height: 500px;
-    padding-top: 10vh;
-    
 }
-div#container-logos{
+div.container-logos{
     width: 50px;
-    height: 150px;
-    float: right;
+    height: 300px;
 }
 div.logos{
     display: inline-block;
     margin-top: 20px;
-    
-    
+    padding-left: 30vw;
+  
 }
 div.logos > img{
     width: 50px;
     height: 50px;
     border-radius: 30px;
+    
 }
 
 /* 
@@ -45,3 +44,38 @@ div.logos > img{
     justify-content: center; /* Alinha horizontalmente ( tenho que ver mais sobre isso e o motivo ) 
     height: 100vh;  
 */
+@media (max-width: 1366px) {
+    div.logos{
+        display: inline-block;
+        margin-top: 10px;
+        padding-left: 35vw;
+      
+    }
+}
+@media (max-width: 1000px) {
+    div.logos{
+        display: inline-block;
+        margin-top: 20px;
+        padding-left: 30vw;
+      
+    }
+}
+
+@media (max-width: 788px) {
+    div.logos{
+        display: inline-block;
+        margin-top: 20px;
+        padding-left: 23vw;
+      
+    }
+}
+
+
+@media (max-width: 577px) {
+    div.logos{
+        display: inline-block;
+        margin-top: 20px;
+        padding-left: 15vw;
+      
+    }
+}
