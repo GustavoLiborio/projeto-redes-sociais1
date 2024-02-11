@@ -12,17 +12,30 @@ article{
     text-align: center;
     
 }
+div#container{
+    margin-right: 25px;
+}
 div#container > img{
     display: inline-block;
-}
-div#logo{
-    display: inline-block;
+    height: 500px;
+    padding-top: 10vh;
     
 }
-div#logo > img{
+div#container-logos{
+    width: 50px;
+    height: 150px;
+    float: right;
+}
+div.logos{
+    display: inline-block;
+    margin-top: 20px;
+    
+    
+}
+div.logos > img{
     width: 50px;
     height: 50px;
-    
+    border-radius: 30px;
 }
 
 /* 
